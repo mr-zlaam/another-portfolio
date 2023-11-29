@@ -1,0 +1,218 @@
+import {} from "react";
+import "./Work.css";
+import { BsArrowRight, BsArrowUp } from "react-icons/bs";
+import { Link } from "react-router-dom";
+
+const Work = () => {
+  return (
+    <>
+      <section className="work">
+        <div className="title_txt">
+          <h1>My Previous Work</h1>
+        </div>
+        <div className="card_controller">
+          <div className="cards">
+            <div className="card_child">
+              <div className="card_txt btn_div">
+                <p>
+                  Discover your dream residency with our curated collection of
+                  exquisite homes and detailed information.
+                </p>
+                <Link
+                  to="https://dreamhomes.netlify.app/"
+                  target="_blank"
+                  className="project_link"
+                >
+                  <input
+                    type="button"
+                    value="View Project"
+                    className="orignal_btn_div"
+                  />
+                </Link>
+              </div>
+              <span>
+                <BsArrowRight size={40} className="arrow_Right" />
+                <BsArrowUp size={30} className="arrow_Up" />
+              </span>
+              <div className="image_controller">
+                <div className="project_image dream_house">
+                  
+                </div>
+              </div>
+            </div>
+            <div className="card_child">
+              <div className="card_txt btn_div">
+                <p>
+                  Introducing our calculation project, simplifying complex
+                  computations with user-friendly tools and precision.
+                </p>
+                <Link
+                  to="https://calculatorzlaam.netlify.app/"
+                  target="_blank"
+                  className="project_link"
+                >
+                  <input
+                    type="button"
+                    value="View Project"
+                    className="orignal_btn_div"
+                  />
+                </Link>
+              </div>
+              <span>
+                <BsArrowRight size={40} className="arrow_Right" />
+                <BsArrowUp size={30} className="arrow_Up" />
+              </span>
+              <div className="image_controller">
+                <div className="project_image calculator">
+                  
+                </div>
+              </div>
+            </div>
+            <div className="card_child">
+              <div className="card_txt btn_div">
+                <p>
+                  A Useful website which can edit your text and Very helpful for
+                  content creators especially Youtubers.
+                </p>
+                <Link
+                  to="https://edittxt.netlify.app/"
+                  target="_blank"
+                  className="project_link"
+                >
+                  <input
+                    type="button"
+                    value="View Project"
+                    className="orignal_btn_div"
+                  />
+                </Link>
+              </div>
+              <span>
+                <BsArrowRight size={40} className="arrow_Right" />
+                <BsArrowUp size={30} className="arrow_Up" />
+              </span>
+              <div className="image_controller">
+                <div className="project_image edit_txt">
+                  
+                </div>
+              </div>
+            </div>
+            <div className="card_child">
+              <div className="card_txt btn_div">
+                <p>
+                  Experience classic fun and strategy with our interactive
+                  Tic-Tac-Toe game.
+                </p>
+                <Link
+                  to="https://tic-cros.netlify.app/"
+                  target="_blank"
+                  className="project_link"
+                >
+                  <input
+                    type="button"
+                    value="View Project"
+                    className="orignal_btn_div"
+                  />
+                </Link>
+              </div>
+              <span>
+                <BsArrowRight size={40} className="arrow_Right" />
+                <BsArrowUp size={30} className="arrow_Up" />
+              </span>
+              <div className="image_controller">
+                <div className="project_image tic_cross">
+                  
+                </div>
+              </div>
+            </div>
+            <div className="card_child">
+              <div className="card_txt btn_div">
+                <p>
+                  Elevate your task management with our dynamic Todo app,
+                  featuring a mesmerizing background gradient animation.
+                </p>
+                <Link
+                  to="https://todolist-07.netlify.app/"
+                  target="_blank"
+                  className="project_link"
+                >
+                  <input
+                    type="button"
+                    value="View Project"
+                    className="orignal_btn_div"
+                  />
+                </Link>
+              </div>
+              <span>
+                <BsArrowRight size={40} className="arrow_Right" />
+                <BsArrowUp size={30} className="arrow_Up" />
+              </span>
+              <div className="image_controller">
+                <div className="project_image animate_todolist">
+                  
+                </div>
+              </div>
+            </div>
+            <div className="card_child">
+              <div className="card_txt btn_div">
+                <p>
+                  Empower your voice and creativity with our user-friendly blog
+                  app, making publishing and sharing your thoughts effortless.
+                </p>
+                <Link
+                  to="https://myarticles.netlify.app/"
+                  target="_blank"
+                  className="project_link"
+                >
+                  <input
+                    type="button"
+                    value="View Project"
+                    className="orignal_btn_div"
+                  />
+                </Link>
+              </div>
+              <span>
+                <BsArrowRight size={40} className="arrow_Right" />
+                <BsArrowUp size={30} className="arrow_Up" />
+              </span>
+              <div className="image_controller">
+                <div className="project_image my_articles">
+                  
+                </div>
+              </div>
+            </div>
+            <div className="card_child">
+              <div className="card_txt btn_div">
+                <p>
+                  Elevate your productivity with our exceptional Todo list app,
+                  designed for ultimate efficiency and ease of use.
+                </p>
+                <Link
+                  to="https://mytodo-1.netlify.app/"
+                  target="_blank"
+                  className="project_link"
+                >
+                  <input
+                    type="button"
+                    value="View Project"
+                    className="orignal_btn_div"
+                  />
+                </Link>
+              </div>
+              <span>
+                <BsArrowRight size={40} className="arrow_Right" />
+                <BsArrowUp size={30} className="arrow_Up" />
+              </span>
+              <div className="image_controller">
+                <div className="project_image localstorage_todo">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default Work;

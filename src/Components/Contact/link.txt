@@ -1,0 +1,16 @@
+
+
+Linkdin:-      
+github:_
+ isnta :_  
+mail:-                \
+
+                ***************img***************
+                <div className="image">
+            <h1 className="font-extrabold text-2xl ">Let's have some chat</h1>
+            <img
+              src="
+           https://live.staticflickr.com/65535/53236094123_b4feb6b3e4_z.jpg"
+              alt="Lawliet"
+            />
+          </div>

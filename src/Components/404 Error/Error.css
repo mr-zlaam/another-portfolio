@@ -1,0 +1,79 @@
+.mainError {
+  position: absolute;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bruno Ace", cursive;
+  position: fixed;
+  animation: error ease-in-out backwards 4s;
+}
+
+@keyframes error {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.errorText {
+  text-align: center;
+}
+.errorText > .txt1 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+.txt1::selection {
+  background: gray;
+  color: white;
+}
+.txt2 {
+  font-family: Arial;
+  color: transparent;
+  -webkit-text-stroke: 3px black;
+  font-weight: bolder;
+  font-size: 9rem;
+}
+.txt3 {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.5s ease-in-out;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+.txt2::selection {
+  color: white;
+  background: gray;
+}
+.txt3:hover {
+  cursor: pointer;
+  transform: translateX(5%);
+  opacity: 0.8;
+}
+.hometxt {
+  color: #000;
+  text-decoration: none;
+}
+.hometxt:hover {
+  transition: all 0.5s ease-in-out;
+  opacity: 0.7;
+}
+@media screen and (max-width: 668px) {
+  .txt3 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-height: 400px) {
+  .mainError {
+    background: red;
+  }
+  .txt1 {
+    font-size: 2rem;
+  }
+  .txt2 {
+    font-size: 5rem;
+  }
+}

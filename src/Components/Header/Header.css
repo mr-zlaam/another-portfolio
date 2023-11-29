@@ -1,0 +1,87 @@
+.section_header {
+  position: relative;
+  user-select: none;
+  -webkit-user-drag: none;
+  user-zoom: none;
+
+}
+
+header {
+
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.logo {
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  margin-left: 50px;
+  transition: all 0.4s ease-in-out;
+}
+
+.logo>h1>.zlaam>img {
+  width: 5rem;
+  opacity: 0.8;
+}
+
+.logo:hover {
+  opacity: 0.7;
+}
+
+.menu_icon {
+  margin-right: 50px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  top: 10px;
+  z-index: 999;
+  height: 50px;
+  padding: 1px;
+  background: none;
+  border-radius: 50%;
+}
+
+.menu_icon:hover {
+  opacity: 0.6;
+}
+
+.section_header {
+  animation: hero ease-in-out backwards 3s;
+  animation-delay: 1s;
+}
+
+.zlaam {
+  color: var(--text-color-1);
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+@keyframes hero {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    position: relative;
+  }
+
+  .menu_icon:hover {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .logo>h1>.zlaam>img {
+    width: 80px;
+  }
+
+}

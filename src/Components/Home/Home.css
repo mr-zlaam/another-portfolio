@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap");
+
+.section_home {
+
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  animation: home ease-in-out backwards 2s;
+  background-color: var(--bg-color-1);
+
+
+}
+
+@keyframes home {
+  0% {
+    opacity: 0;
+    transform: translateY(30%);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.section_home .left_txt h1::selection {
+  background: #999fb9;
+  color: #28282b;
+}
+
+.left_txt {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left_txt>.intro {
+  font-family: "BrunoAce_Sc";
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 3.8rem;
+  -webkit-user-drag: none;
+}
+
+.normal {
+  font-size: 1.5rem;
+  font-family: "BrunoAce_Sc";
+}
+
+.normal::selection {
+  background: #999fb9;
+  color: #28282b;
+}
+
+.and {
+  user-select: none;
+  font-family: "BrunoAce_Sc";
+  cursor: text;
+}
+
+.and::selection {
+  background: transparent;
+}
+
+
+
+.right_txt {
+  font-family: "BrunoAce_Sc", cursive;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  font-weight: bold;
+}
+
+.right_txt>a {
+  color: var(--text-color-1);
+  padding: 20px 5px;
+  text-decoration: none;
+}
+
+.right_txt {
+  user-select: none;
+  cursor: default;
+
+}
+
+.right_txt>.info-text::selection {
+  background-color: transparent;
+}
+
+.right_txt>a {
+  display: flex;
+  font-family: "BrunoAce_Sc";
+  align-items: center;
+  justify-content: space-around;
+  gap: 0.7rem;
+  transition: all 0.4s ease-in-out;
+}
+
+br::selection {
+  background: transparent;
+}
+
+.right_txt>a:hover {
+  opacity: 0.5;
+  transform: translateX(10px);
+}
+
+
+
+@media screen and (max-width: 700px) and (min-width:485px) {
+
+  .left_txt>.intro {
+    font-size: 2.8rem;
+  }
+
+}
+
+@media screen and (max-width: 485px) {
+  .section_home {
+    position: fixed;
+    padding-bottom: 10rem;
+  }
+
+  .left_txt>.intro {
+    font-size: 2.5rem;
+  }
+
+  .normal {
+    font-size: 0.8rem;
+  }
+
+  .and {
+    font-size: 1.8rem;
+  }
+
+  .right_txt {
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .radial-gradient-container,
+  .section_home {
+    height: 100vh;
+  }
+
+  .abouts {
+    position: relative;
+    bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 245px) {
+  .port-none {
+    display: none;
+  }
+}

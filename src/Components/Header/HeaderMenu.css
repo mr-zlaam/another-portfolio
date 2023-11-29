@@ -1,0 +1,102 @@
+@font-face {
+  font-family: BrunoAce_Sc;
+  src: url('../MyFonts/BrunoAceSC-Regular.ttf');
+}
+
+.navigation {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
+
+.navigation nav>ul {
+  z-index: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  font-size: 3rem;
+  font-family: BrunoAce_Sc;
+
+  justify-content: center;
+  align-items: center;
+
+  background: radial-gradient(circle, #ffffff, #fcfcfc, #474747);
+  background-size: 200% 200%;
+
+  animation: gradient-animation 5s linear infinite;
+
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-size: 300% 200%;
+    /* Starting size */
+  }
+
+  100% {
+    background-size: 400% 200%;
+    /* Ending size */
+  }
+}
+
+nav {
+  background-color: var(--bg-color-2);
+  overflow: scroll;
+}
+
+.navigation>nav>ul>a {
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  color: #28282b;
+  transition: all 0.4s ease-in-out;
+  font-weight: bolder;
+  text-align: center;
+}
+
+ul>a:hover {
+  transform: translateX(30px);
+  letter-spacing: -3px;
+
+}
+
+.navigation {
+  position: fixed;
+  bottom: -140%;
+  left: 0;
+  width: 100%;
+  background-color: var(--bg-color-1);
+  transition: bottom 1.4s ease-in-out;
+}
+
+.menu-open {
+  bottom: 0;
+}
+
+@media screen and (max-width: 468px) {
+  .navigation nav>ul {
+    width: 100%;
+    font-size: 2.5rem;
+    background-color: var(--bg-color-1);
+    margin-right: 20px;
+  }
+
+  .navigation nav>ul a {
+    right: 20px;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  .navigation nav>ul {
+    font-size: 1.7rem;
+    overflow: scroll;
+    display: flex;
+    flex-direction: row;
+  }
+
+  ul>a:hover {
+    transform: translateY(20%);
+  }
+}
