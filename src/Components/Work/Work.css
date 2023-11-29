@@ -1,14 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
 @font-face {
   font-family: Young_serif;
-  src: url('../MyFonts/YoungSerif-Regular.ttf');
+  src: url("../MyFonts/YoungSerif-Regular.ttf");
 }
 
 @font-face {
   font-family: Kenit;
-  src: url('../MyFonts/Kanit-Regular.ttf');
+  src: url("../MyFonts/Kanit-Regular.ttf");
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 
 .work {
   height: 85vh;
@@ -24,7 +23,7 @@
   justify-content: center;
   align-items: center;
 }
-.card_image_controller{
+.card_image_controller {
   transform: skew(0);
 
   transition: all 0.3s ease-in-out;
@@ -32,7 +31,6 @@
 .card_image_controller:hover {
   -webkit-transform: perspective(800px) rotateY(25deg) scale(1) rotateX(10deg);
   transform: perspective(800px) rotateY(25deg) scale(1) rotateX(10deg);
-
 }
 
 .card_image {
@@ -41,13 +39,9 @@
   max-width: 100%;
   border-radius: 20px;
   overflow: hidden;
-
-  
 }
 
-
-
-.card_image>img {
+.card_image > img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -58,19 +52,15 @@
   padding: 9px 15px;
   background: gray;
   color: white;
-  font-family: 'Michroma', sans-serif;
+  font-family: "Michroma", sans-serif;
   font-weight: bold;
   transition: all 0.3s ease-in-out;
   text-decoration: none;
-
-
 }
 
 .link:hover {
   opacity: 0.8;
   cursor: pointer;
-  
-
 }
 
 .link_Arrow {
@@ -84,7 +74,6 @@
   font-size: 30px;
   font-weight: bold;
   color: #28282b;
- 
 }
 
 .title {
@@ -96,9 +85,8 @@
   text-align: center;
   font-weight: bolder;
   font-family: Michroma;
-
 }
-.title_text::selection{
+.title_text::selection {
   background: gray;
   color: white;
 }
@@ -107,7 +95,6 @@
   .card_image {
     width: 90%;
     margin: auto;
-
   }
 }
 

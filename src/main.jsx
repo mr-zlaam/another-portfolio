@@ -5,7 +5,7 @@ import "./App.css";
 import "./index.css";
 import RadialGradient from "./Components/Background Animated/bgAnimated";
 import App from "./App";
-ReactDOM.createRoot(document.querySelector("#root")).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
       <RadialGradient>
