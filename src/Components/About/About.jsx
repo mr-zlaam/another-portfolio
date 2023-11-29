@@ -1,9 +1,8 @@
 import "./About.css";
 import { Link } from "react-router-dom";
 import { BsArrowDown } from "react-icons/bs";
-import Data from "../../aboutdata.json";
+import data from "../../aboutdata.json";
 const About = () => {
-  const { title, image, content } = Data;
   const date = new Date().getDate();
   const month = new Date().getMonth();
   const year = new Date().getFullYear();
@@ -45,18 +44,19 @@ const About = () => {
           </div>
         </div>
         <div>
-          <div className="card">
-            python
-            <img src={image} alt="" />
-            <div className="card__content">
-              <p className="card__title">Card Title</p>
-              <p className="card__description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco.
-              </p>
-            </div>
-          </div>
+          {data.map((data, index) => {
+            return (
+              <>
+                <div key={index} className="card">
+                  <img src={data.image} alt="" />
+                  <div className="card__content">
+                    <p className="card__title">Card Title</p>
+                    <p className="card__description">{data.content}</p>
+                  </div>
+                </div>
+              </>
+            );
+          })}
         </div>
       </section>
     </>
