@@ -14,7 +14,7 @@ const Home = () => {
               <br />
               <span className="normal"> I am UX/UI designer</span>&nbsp;
               <span className="and">&</span>&nbsp;
-              <span className="normal"> front-end web and App developer </span>
+              <span className="normal"> FullStack-web and App developer </span>
             </h1>
           </div>
           <div className=" right_txt">

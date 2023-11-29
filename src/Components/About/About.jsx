@@ -24,13 +24,13 @@ const About = () => {
                   <strong>Hello there!</strong>
                 </h4>
                 I am known as Zlaam. I am a dedicated and skilled FullStack-web
-                App developer with a 1.5 Years of hands-on experience. My true
+                App developer with a 1.5+ Years of hands-on experience. My true
                 passion lies in transforming concepts into tangible digital
                 solutions, and I wholeheartedly embrace new challenges that come
                 my way. I am proficient in languages such as JavaScript and
                 Python, I specialize in creating dynamic and responsive web
                 applications. My goal is to continue pushing the boundaries of
-                innovation in the ever-evolving field of web development.{date}
+                innovation in the ever-evolving field of web development.
               </p>
               <div className="current_time_main_container">
                 <div className="date_container">
@@ -44,6 +44,7 @@ const About = () => {
           </div>
         </div>
         <div>
+          <h1 className="expertise">My Expertise:-</h1>
           <div className="main_card">
             {data.map((data, index) => {
               return (

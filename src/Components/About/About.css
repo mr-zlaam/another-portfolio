@@ -177,11 +177,19 @@
   font-weight: bold;
   letter-spacing: 1px;
 }
-
+.expertise {
+  font-family: BrunoAce_Sc;
+  font-weight: bolder;
+  text-align: start;
+  position: relative;
+  left: 30px;
+  padding: 20px 0;
+}
 @media screen and (max-width: 901px) {
   .main_about {
     display: flex;
     flex-direction: column;
+    height: 100%;
   }
 
   .about {

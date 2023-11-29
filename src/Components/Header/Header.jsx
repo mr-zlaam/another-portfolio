@@ -31,7 +31,7 @@ const Header = () => {
             size={30}
             color="#000"
             duration={1}
-            distance="sm"
+            distance="md"
             rounded
             hideOutline={false}
           />
