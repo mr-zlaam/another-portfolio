@@ -1,4 +1,4 @@
-import Header from "../Header/Header";
+import Header from "../Header/Header.jsx";
 import "./Portfolio.css";
 import Routess from "../Routes/Routes";
 const Portfolio = () => {
