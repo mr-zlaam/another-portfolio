@@ -2,56 +2,51 @@
   {
     "title": "Python",
     "image": "svgs/python.svg",
-    "content": "Python is very good"
+    "content": "Python is a very simple and readable language. I love to write code in Python."
   },
   {
     "title": "Javascript",
     "image": "svgs/js.svg",
-    "content": "Javascript is very good"
+    "content": "Javascript was my first programming language. I feel very comfortable when it comes to work with Javascript."
   },
   {
     "title": "Django",
     "image": "svgs/django.svg",
-    "content": "Django is very good"
+    "content": "It is very amazing framework. It is very handy, organized and Advance framework Therefore mostly I choose Django for writing backend."
   },
   {
     "title": "React",
     "image": "svgs/react.svg",
-    "content": "React is very good"
+    "content": "The Creation of Facebook is very beautiful. It is a very good choice to write frontend of Web-App. I feel very comfortable with it."
   },
   {
     "title": "MongoDb",
     "image": "svgs/mongo.svg",
-    "content": "mongdb is very good"
+    "content": "MongoDb is a very powerful and easy to use. I mostly choose Mongo Db  over any other Database. I love it because of its Schema less nature"
   },
   {
     "title": "Html",
     "image": "svgs/html.svg",
-    "content": "Html is very good"
+    "content": "I mostly used HTML for hacking (Just Kidding). "
   },
   {
     "title": "Css",
     "image": "svgs/css.svg",
-    "content": "Css is very good"
+    "content": "I am also a backend developer but still i love to write styling in Css"
   },
   {
     "title": "Tailwind",
     "image": "svgs/tailwind.svg",
-    "content": "Css is very good"
+    "content": "A very beautify framework for css. It alway help me to do fast styling."
   },
   {
     "title": "Chakra UI",
     "image": "svgs/chakraui.svg",
-    "content": "Css is very good"
+    "content": "Very beautify Js library for Styling. I love it due to its built in features"
   },
   {
     "title": "Redux Toolkit",
     "image": "svgs/redux.svg",
-    "content": "Css is very good"
-  },
-  {
-    "title": "Firebase",
-    "image": "svgs/firebase.svg",
-    "content": "Firebase is very good"
+    "content": "Redux toolkit is very beautify library for state management."
   }
 ]
