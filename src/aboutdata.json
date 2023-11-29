@@ -3,5 +3,55 @@
     "title": "Python",
     "image": "svgs/python.svg",
     "content": "Python is very good"
+  },
+  {
+    "title": "Javascript",
+    "image": "svgs/js.svg",
+    "content": "Javascript is very good"
+  },
+  {
+    "title": "Django",
+    "image": "svgs/django.svg",
+    "content": "Django is very good"
+  },
+  {
+    "title": "React",
+    "image": "svgs/react.svg",
+    "content": "React is very good"
+  },
+  {
+    "title": "MongoDb",
+    "image": "svgs/mongo.svg",
+    "content": "mongdb is very good"
+  },
+  {
+    "title": "Html",
+    "image": "svgs/html.svg",
+    "content": "Html is very good"
+  },
+  {
+    "title": "Css",
+    "image": "svgs/css.svg",
+    "content": "Css is very good"
+  },
+  {
+    "title": "Tailwind",
+    "image": "svgs/tailwind.svg",
+    "content": "Css is very good"
+  },
+  {
+    "title": "Chakra UI",
+    "image": "svgs/chakraui.svg",
+    "content": "Css is very good"
+  },
+  {
+    "title": "Redux Toolkit",
+    "image": "svgs/redux.svg",
+    "content": "Css is very good"
+  },
+  {
+    "title": "Firebase",
+    "image": "svgs/firebase.svg",
+    "content": "Firebase is very good"
   }
 ]
