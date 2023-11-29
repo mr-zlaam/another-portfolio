@@ -69,7 +69,7 @@
   position: relative;
 }
 
-.image>img {
+.image > img {
   width: 80%;
   border-radius: 55%;
   filter: drop-shadow(2px 2px 2px black);
@@ -92,11 +92,6 @@
   background: gray;
   color: white;
   transition: all 0.3s ease-in-out;
-
-  & .color_icon {
-    transition: all 0.3s ease-in-out;
-    color: #fafa00;
-  }
 }
 
 .icons_text {
@@ -138,9 +133,7 @@
 
 @media screen and (min-width: 334px) and (max-width: 581px) {
   .transparent::after {
-
     display: none;
-
   }
 
   .color_icon {
